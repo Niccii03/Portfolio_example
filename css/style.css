@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3f323e;
+}
+
+/* General */
+
+.main{
+    background-color: #eae9e9;
+}
+
+.wrap{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+/* Header */
+
+.header{
+    background-color: #3f323e;
+    padding: 20px 20px;
+    color: white;
+}
+
+.header-wrap{
+    display: flex;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.header-img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.header-title{
+    line-height: 60px;
+}
+
+.header-name{
+    font-size: 14px;
+}
+
+/* Objective */
+
+.obj{
+    padding-top: 50px;
+    color: #3f323e;
+}
+
+.obj-title{
+    margin-bottom: 20px;
+}
+
+.text{
+    margin-bottom: 15px;
+    line-height: 25px;
+    color: #3f323e;
+}
+
+/* Experience */
+
+.exp{
+    margin: 60px 0;
+}
+
+.exp-text{
+    display: flex;
+}
+
+.exp-title{
+    margin-bottom: 20px;
+    color: #3f323e;
+}
+
+.exp-time{
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F;
+    padding-right: 92px;
+}
+
+.exp-text__title{
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F; 
+}
+
+.exp-content{
+    font-size: 16px;
+    line-height: 22px;
+    color: #3F313F;
+    padding-left: 186px;
+}
+
+.ex__head{
+    padding-left: 16px;
+}
+
+/* Skills */
+.skills{
+    margin-bottom: 40px;
+}
+
+.skills-title{
+    margin-bottom: 25px;
+    color: #3f323e;
+}
+
+.skills-content{
+    line-height: 25px;
+}
+
+/* Languages */
+
+.lang{
+    padding-bottom: 40px;
+}
+
+.lang-title{
+    margin-bottom: 25px;
+    color: #3f323e;
+}
+
+.lang-list__item{
+    line-height: 20px;
+    list-style:square;
+    list-style-position:inside;
+}
+
+
+/* Form */
+
+.form-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e4d7d2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.inputs{
+    display: flex;
+}
+
+.form-title{
+    margin-bottom: 5px;
+}
+
+.form input, .form-text{
+    width: 300px;
+    border: none;
+    background-color: #e4d7d2;
+    border-bottom: 4px solid #c1b3b0;
+    outline: none;
+}
+
+.form-text{
+    width: 600px;
+    height: 25px;
+    resize: none;
+}
+
+.form-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    background-color: #3f323e;
+    color: white;
+}
+
+/* Contacts */
+
+.footer, .contacts-list__item a{
+    background-color: #3f323e;
+    color: white;
+}
+
+.contacts-title{
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.contacts-list{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.contacts-list__item{
+    list-style-type: none;
+}
+
+.contacts-link{
+    text-decoration: none;
+}
+
+.copyright{
+    color: #7e717e;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+
+
+
